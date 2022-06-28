@@ -127,7 +127,7 @@ function battleP(){
             let dopdefAI = [...defAI];
             while(dopdefAI.length !==0){
                 if(attakP1 > dopdefAI[targetB-1]){
-                    str100 = dopdefAI.join(' '); 
+                    str100 = dopdefAI.join(); 
                     dopdefAI.pop();
                 }
             }
